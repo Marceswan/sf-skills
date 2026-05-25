@@ -5,77 +5,85 @@
     "url": "https://github.com/Jaganpro"
   },
   "metadata": {
-    "description": "Salesforce development skills for Claude Code",
-    "version": "2.1.0"
+    "description": "Reconciled best-of-all Salesforce, Agentforce, Data Cloud, and OmniStudio skills for Claude Code",
+    "version": "3.0.0"
   },
   "plugins": [
     {
       "name": "sf-skills",
-      "description": "Complete Salesforce development suite - Apex, Flow, Metadata, Data, Deployment, and Skill Builder (install all at once)",
+      "description": "Complete reconciled Salesforce development suite (62 skills): Apex, LWC, Flow, SOQL, metadata, deploy, debug, Agentforce, Data Cloud, OmniStudio, B2B Commerce, UI bundles, plus Skill Builder (install all at once)",
       "source": "./",
       "strict": false,
       "skills": [
-        "./sf-apex/skills/sf-apex",
-        "./sf-flow/skills/sf-flow",
-        "./sf-metadata/skills/sf-metadata",
-        "./sf-data/skills/sf-data",
-        "./sf-deploy/skills/sf-deploy",
-        "./skill-builder/skills/skill-builder",
-        "./sf-ai-agentforce/skills/sf-ai-agentforce",
-        "./sf-diagram/skills/sf-diagram",
-        "./sf-integration/skills/sf-integration",
-        "./sf-connected-apps/skills/sf-connected-apps"
+        "./skills/activating-datacloud",
+        "./skills/analyzing-omnistudio-dependencies",
+        "./skills/applying-cms-brand",
+        "./skills/building-agentscript",
+        "./skills/building-omnistudio-callable-apex",
+        "./skills/building-omnistudio-datamapper",
+        "./skills/building-omnistudio-flexcard",
+        "./skills/building-omnistudio-integration-procedure",
+        "./skills/building-omnistudio-omniscript",
+        "./skills/building-sf-integrations",
+        "./skills/building-ui-bundle-app",
+        "./skills/building-ui-bundle-frontend",
+        "./skills/configuring-connected-apps",
+        "./skills/connecting-datacloud",
+        "./skills/creating-b2b-commerce-store",
+        "./skills/debugging-apex-logs",
+        "./skills/deploying-metadata",
+        "./skills/deploying-omnistudio-datapacks",
+        "./skills/deploying-ui-bundle",
+        "./skills/designing-agentforce-persona",
+        "./skills/developing-agentforce",
+        "./skills/developing-datacloud-code-extension",
+        "./skills/fetching-salesforce-docs",
+        "./skills/generating-apex",
+        "./skills/generating-apex-test",
+        "./skills/generating-custom-application",
+        "./skills/generating-custom-field",
+        "./skills/generating-custom-lightning-type",
+        "./skills/generating-custom-object",
+        "./skills/generating-custom-tab",
+        "./skills/generating-flexipage",
+        "./skills/generating-flow",
+        "./skills/generating-lightning-app",
+        "./skills/generating-list-view",
+        "./skills/generating-lwc-components",
+        "./skills/generating-mermaid-diagrams",
+        "./skills/generating-permission-set",
+        "./skills/generating-ui-bundle-features",
+        "./skills/generating-ui-bundle-metadata",
+        "./skills/generating-ui-bundle-site",
+        "./skills/generating-validation-rule",
+        "./skills/generating-visual-diagrams",
+        "./skills/getting-datacloud-schema",
+        "./skills/handling-sf-data",
+        "./skills/harmonizing-datacloud",
+        "./skills/implementing-ui-bundle-agentforce-conversation-client",
+        "./skills/implementing-ui-bundle-file-upload",
+        "./skills/integrating-b2b-commerce-open-code-components",
+        "./skills/modeling-omnistudio-epc-catalog",
+        "./skills/observing-agentforce",
+        "./skills/orchestrating-datacloud",
+        "./skills/preparing-datacloud",
+        "./skills/querying-soql",
+        "./skills/retrieving-datacloud",
+        "./skills/running-apex-tests",
+        "./skills/running-code-analyzer",
+        "./skills/searching-media",
+        "./skills/segmenting-datacloud",
+        "./skills/switching-org",
+        "./skills/testing-agentforce",
+        "./skills/uplifting-components-to-slds2",
+        "./skills/using-ui-bundle-salesforce-data",
+        "./skill-builder/skills/skill-builder"
       ]
-    },
-    {
-      "name": "sf-apex",
-      "description": "Apex code generation and review with 150-point scoring and TAF patterns",
-      "source": "./sf-apex"
-    },
-    {
-      "name": "sf-flow",
-      "description": "Salesforce Flow creation and validation with 110-point scoring",
-      "source": "./sf-flow"
-    },
-    {
-      "name": "sf-metadata",
-      "description": "Salesforce metadata generation and org querying with 120-point scoring",
-      "source": "./sf-metadata"
-    },
-    {
-      "name": "sf-data",
-      "description": "Salesforce data operations with SOQL expertise, test data factories, and 130-point validation",
-      "source": "./sf-data"
-    },
-    {
-      "name": "sf-deploy",
-      "description": "Salesforce DevOps automation using sf CLI v2",
-      "source": "./sf-deploy"
     },
     {
       "name": "skill-builder",
       "description": "Interactive wizard for creating Claude Code skills",
       "source": "./skill-builder"
-    },
-    {
-      "name": "sf-ai-agentforce",
-      "description": "Agentforce agent creation using Agent Script syntax with 100-point scoring (API v64+)",
-      "source": "./sf-ai-agentforce"
-    },
-    {
-      "name": "sf-diagram",
-      "description": "Mermaid diagrams for OAuth flows, ERDs, integrations, and Agentforce architecture with 80-point scoring",
-      "source": "./sf-diagram"
-    },
-    {
-      "name": "sf-integration",
-      "description": "Named Credentials, External Services, REST/SOAP callouts, Platform Events, and CDC with 120-point scoring",
-      "source": "./sf-integration"
-    },
-    {
-      "name": "sf-connected-apps",
-      "description": "Connected Apps and External Client Apps with OAuth configuration and 120-point scoring",
-      "source": "./sf-connected-apps"
     }
   ]
 }
